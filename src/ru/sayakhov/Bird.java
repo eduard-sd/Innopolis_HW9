@@ -18,16 +18,16 @@ public class Bird extends Animal implements CanFligth, CanSwim, CanRun{
 
     @Override
     public void flight() {
-        System.out.println("I`m "+name+", i can flying");
+        System.out.println("I`m "+super.getName()+", i can flying");
     }
 
     @Override
     public void swim() {
-        System.out.println("I`m "+name+", i can swimming");
+        System.out.println("I`m "+super.getName()+", i can swimming");
     }
 
     @Override
     public void run() {
-        System.out.println("I`m "+name+", i can running");
+        System.out.println("I`m "+super.getName()+", i can running");
     }
 }

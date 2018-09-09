@@ -18,11 +18,11 @@ public class Amphibia extends Animal implements CanSwim, CanRun {
 
     @Override
     public void swim() {
-        System.out.println("I`m "+name+", i can swimming");
+        System.out.println("I`m "+super.getName()+", i can swimming");
     }
 
     @Override
     public void run() {
-        System.out.println("I`m "+name+", i can running");
+        System.out.println("I`m "+super.getName()+", i can running");
     }
 }

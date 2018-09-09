@@ -1,7 +1,7 @@
 package ru.sayakhov;
 
 public abstract class Animal {
-    protected String name;
+    private String name;
     private int age;
     private int weigth;
 

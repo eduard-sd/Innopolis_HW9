@@ -1,7 +1,7 @@
 package ru.sayakhov;
 
 public abstract class Human implements CanRun, CanSwim {
-    protected String name;
+    private String name;
 
     public String getName() {
         return name;

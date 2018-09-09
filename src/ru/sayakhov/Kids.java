@@ -18,6 +18,6 @@ public class Kids extends Human {
 
     @Override
     public void swim() {
-        System.out.println("I`m "+name+", i CANN`T swimming");
+        System.out.println("I`m "+super.getName()+", i CANN`T swimming");
     }
 }

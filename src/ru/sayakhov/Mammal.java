@@ -18,11 +18,11 @@ public class Mammal extends Animal implements CanRun,CanSwim{
 
     @Override
     public void run() {
-        System.out.println("I`m "+name+", i can running");
+        System.out.println("I`m "+super.getName()+", i can running");
     }
 
     @Override
     public void swim() {
-        System.out.println("I`m "+name+", i can swimming");
+        System.out.println("I`m "+super.getName()+", i can swimming");
     }
 }
